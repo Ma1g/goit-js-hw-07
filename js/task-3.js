@@ -3,10 +3,10 @@ const outputName = document.querySelector("#name-output");
 
 function inputValue() {
     const inputValue = inputName.value.trim();
-    if (inputName === "") {
+    if (inputValue === "") {
         outputName.textContent = "Anonymous";
     } else {
         outputName.textContent = inputValue;
     }
 }
-inputName.addEventListener("input", inputValue);
+inputName.addEventListener("input", inputValue);    
